@@ -16,9 +16,11 @@ body {
   font-size: 20px;
 }
 #img-div {
+  max-width: 100%;
   margin: 10px auto;
   margin-bottom: 250px;
   height: 500px;
+  max-height: auto;
 }
 #img-caption {
   text-align: center;
@@ -27,7 +29,6 @@ body {
 #image {
   display: block;
   margin: 10px auto;
-  max-width: 100%;
 }
 #tribute-info {
   text-align: center;
