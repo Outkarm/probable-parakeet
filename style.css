@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(236, 204, 22);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("./b4.jpg");
+  background-position: fixed;
+  /* background-size: cover; */
+}
+#main {
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+}
+#img-div {
+  margin: 10px auto;
+  margin-bottom: 250px;
+  height: 500px;
+}
+#img-caption {
+  text-align: center;
+  font-family: serif;
+}
+#img-div img {
+  display: block;
+  margin: 10px auto;
+}
+#biography {
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+#target-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.target-link1 {
+  border: 2px solid black;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+  background: linear-gradient(
+    to bottom,
+    red 0%,
+    yellow 35%,
+    orange 70%,
+    rgb(230, 131, 19) 100%
+  );
+  margin-bottom: 35px;
+}
+#quotes {
+  /* color: rgb(36, 1, 21); */
+  width: 600px;
+  justify-content: center;
+  margin: 10px auto;
+  font-size: 30px;
+}
+b h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+#logo {
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  width: 280px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-line: overline;
+  color: rgba(80, 235, 8, 0.589);
+}
+#youtube {
+  display: block;
+  margin: 10px auto;
+  width: 565px;
+}
+#end {
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  width: 280px;
+}
